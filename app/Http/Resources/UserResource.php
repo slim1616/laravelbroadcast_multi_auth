@@ -23,15 +23,7 @@ class UserResource extends JsonResource
             'prenom' => $this->prenom,
             'email' => $this->email,
             'avatar' => '',
-            'classe' => "classe",
-            'matiere' => '',
-            'niveau' => "niveau",
-            'followers' => [],
-            'followed' => [],
-            'section' => "section",
-            'niveau_id' => "0",
-            'section_id' => "0",
-            //'roles' => $this->roles,
+            
             
         ]
         ];
