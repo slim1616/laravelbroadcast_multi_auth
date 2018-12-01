@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Connected users</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -15,7 +15,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                      <userslist></userslist>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Utilisateurs</div>
+                <div class="card-header">All users</div>
 
                 <div class="card-body">
                    @foreach($users as $user)
@@ -37,6 +37,7 @@
                 </div>
             </div>
         </div>
+     
     </div>
 </div>
 <button id="notifier">notifier</button>

@@ -16,6 +16,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::post('/guard/broadcast/auth', function(\Illuminate\Support\Facades\Request $req){
+    return true;
+})->middleware('broadcast');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
