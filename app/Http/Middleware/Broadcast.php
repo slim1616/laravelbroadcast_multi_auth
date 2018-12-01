@@ -16,7 +16,6 @@ class Broadcast
     public function handle($request, Closure $next)
     {
         $web = Auth::guard('web')->user();
-        dd($web);
         if ($web) {
             
             return response()->json(\Illuminate\Support\Facades\Broadcast::auth($request));

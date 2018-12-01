@@ -4,7 +4,7 @@ composer install<br>
 npm install<br>
 <h2>Create an empty database for the application</h2>
 <h2>Create your .env file</h2>
-
+change : BROADCAST_DRIVER=redis <br>
 php artisan key:generate<br>
 php artisan migrate<br>
 php artisan passport:install<br>
