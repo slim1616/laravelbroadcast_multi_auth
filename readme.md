@@ -19,4 +19,4 @@ laravel-echo-server start<br>
 <h2>Lunch server with your IP adress :</h2>
 npm run watch<br>
 
-php artisan serve --host=192.168.43.186 --port=8000<br>
+php artisan serve --host=your-ip --port=8000<br>
